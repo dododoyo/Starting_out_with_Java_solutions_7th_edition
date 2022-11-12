@@ -6,7 +6,7 @@ public class ParkingTicket
     private String carModel;
     private String carColor;
     private String msg;
-    private int licenseNumber;
+    private String licenseNumber;
     private int fine;
 
 

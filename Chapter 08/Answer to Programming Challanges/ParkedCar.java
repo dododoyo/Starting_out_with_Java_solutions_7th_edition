@@ -4,7 +4,7 @@ public class ParkedCar
     private  String carMake;
     private String carModel;
     private String carColor;
-    private int licenseNumber;
+    private String licenseNumber;
     private int parkedMinutes;
 
     public ParkedCar()
@@ -12,7 +12,7 @@ public class ParkedCar
         carMake = " ";
         carModel = " ";
         carColor = " ";
-        licenseNumber = 0;
+        licenseNumber = " ";
         parkedMinutes = 0;
     }
 
@@ -37,7 +37,7 @@ public class ParkedCar
     {
         carColor = theColor;
     }
-    public void setCarLicense(int theLicense)
+    public void setCarLicense(String theLicense)
     {
         licenseNumber = theLicense;
     }
@@ -59,7 +59,7 @@ public class ParkedCar
     {
         return carColor;
     }
-    public int getCarLicense()
+    public String getCarLicense()
     {
         return licenseNumber;
     }

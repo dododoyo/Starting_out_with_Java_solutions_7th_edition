@@ -17,11 +17,12 @@ public class PoliceOfficer
         officerName = name;
         theBadge = badgeNumber;
     }
-    public void issueTicket()
+
+    public void issueTicket(int parkedMinutes, int purchaseMinutes)
     {
         ParkedCar theCar = new ParkedCar();
-        ParkingMeter theMeter = new ParkingMeter();
-        minutes = theCar.getParkedMinutes() - theMeter.getPurchasedMinutes();
+
+        minutes = parkedMinutes - purchaseMinutes;
         if (minutes > 0)
         {
             ParkingTicket ticket = new ParkingTicket(theCar);
@@ -35,6 +36,7 @@ public class PoliceOfficer
             theFine = 0;      
         }
     }
+   
     public void setOfficerName(String theName)
     {
         officerName = theName;

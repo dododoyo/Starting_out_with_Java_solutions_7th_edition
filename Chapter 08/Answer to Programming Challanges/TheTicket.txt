@@ -1,12 +1,12 @@
                  TICKET.
-                ________
-This ticket is issued by: Gashaw Bude
-Police's badge number is: 231931
+                 -------
+This ticket is issued by: Dolphin Mulugeta
+Police's badge number is: 138294
 The make of the car is: Toyota
 The model of the car is: Corolla
 The color of the car is: Red
-The license of the car is: 312312
+The license of the car is: 111222
 The  number of minutes parked is: 180
-The purchased number of minutes for parking is: 30
-The car time has not expired yet.
-The total amount to be fined is: 0
+The purchased number of minutes for parking is: 90
+The car time has expired
+The total amount to be fined is: $325
